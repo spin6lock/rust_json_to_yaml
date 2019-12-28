@@ -1,0 +1,13 @@
+[package]
+name = "rust_json_to_yaml"
+version = "0.1.0"
+authors = ["spin6lock <spin6lock@users.noreply.github.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+serde = "1.0"
+serde_json = "1.0"
+serde_yaml = "0.8"
+clap = "2.33"
